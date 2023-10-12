@@ -27,6 +27,11 @@ const body = document.body;
         body.classList.remove("head-light");
         body.classList.add("head-dark");
 
+        body.classList.remove("form-light");
+        body.classList.add("form-dark");
+
+        
+
         break;
       case themes.dark:
         body.classList.remove("bg-light");
@@ -36,6 +41,11 @@ const body = document.body;
 
         body.classList.remove("head-dark");
         body.classList.add("head-light");
+
+        body.classList.remove("form-dark");
+        body.classList.add("form-light");
+
+       
         break;
       default:
         body.classList.remove("bg-dark");
@@ -43,8 +53,10 @@ const body = document.body;
         body.classList.add("bg-light");
         body.classList.add("text-dark");
 
-        body.classList.remove("head-light");
-        body.classList.add("head-dark");
+        body.classList.remove("form-light");
+        body.classList.add("form-dark");
+
+        
     }
   }, [theme]);
 
