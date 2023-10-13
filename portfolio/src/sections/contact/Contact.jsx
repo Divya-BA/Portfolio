@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast,ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
+
 function Contact() {
 
   const form = useRef();
@@ -11,7 +12,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_1ispkuf', 'template_h9w451v', form.current, 'ST6aOv16mI-bBXYfL')
+    emailjs.sendForm('service_1ispkuf', 'template_h9w451v', form.current,'ST6aOv16mI-bBXYfL')
       .then((result) => {
           console.log(result.text);
           console.log("Email send successfully");
