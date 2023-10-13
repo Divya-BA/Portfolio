@@ -137,6 +137,14 @@ color: white;
     padding: 0.5rem 12rem;
 }
 
+.bg-dark input[type="text"],
+.bg-dark input[type="email"],
+.bg-dark textarea {
+  background-color: #333; 
+  color: #fff; 
+  border: 1px solid #555; 
+}
+
 @media screen and (max-width:1024px) {
     body{
         font-size: 1rem;
