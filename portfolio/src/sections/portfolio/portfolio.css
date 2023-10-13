@@ -36,11 +36,14 @@ transition: var(--transition);
 }
 .portfolio__item p{
     margin: 1.2rem 0 2rem;
+    text-align: center;
 }
+
 
 .portfolio__item__cta{
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 1.2rem;
     
 }

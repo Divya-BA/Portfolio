@@ -1,9 +1,9 @@
 import one from '../../images/1.jpg'
-import two from '../../images/two.png'
+import two from '../../images/2.png'
 import three from '../../images/three.png'
-import four from '../../images/four.png'
+import four from '../../images/4.png'
 import five from '../../images/five.png'
-import six from '../../images/six.png'
+import six from '../../images/6.png'
 import seven from '../../images/seven.png'
 import eight from '../../images/eight.png'
 
