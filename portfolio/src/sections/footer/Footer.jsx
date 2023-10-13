@@ -12,7 +12,7 @@ function Footer() {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className="footer__socials">
-      <a href='https://www.linkedin.com/' target='_blank'> <AiOutlineLinkedin /></a>
+      <a href='https://www.linkedin.com/in/divya-b-a-64090223a/' target='_blank'> <AiOutlineLinkedin /></a>
       </div>
      </footer>
     )
