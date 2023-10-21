@@ -1,6 +1,8 @@
 import React from 'react'
 import './footer.css'
 import {AiOutlineLinkedin} from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai';
+
 function Footer() {
   return (
      <footer>
@@ -12,6 +14,7 @@ function Footer() {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className="footer__socials">
+      <a href='https://github.com/Divya-BA' target='_blank'><AiFillGithub /></a>
       <a href='https://www.linkedin.com/in/divya-b-a-64090223a/' target='_blank'> <AiOutlineLinkedin /></a>
       </div>
      </footer>
