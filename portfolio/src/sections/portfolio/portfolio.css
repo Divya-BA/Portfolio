@@ -33,6 +33,7 @@ transition: var(--transition);
 .portfolio__item__image{
     border-radius: 1.5rem;
     overflow: hidden;
+   
 }
 .portfolio__item p{
     margin: 1.2rem 0 2rem;
